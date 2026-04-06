@@ -62,3 +62,6 @@ Currently available for future services, testing, or expansion.
 * Dedicated pfSense firewall
 * Cisco / Ubiquiti networking hardware
 * Additional storage expansion
+
+  <img width="2691" height="2160" alt="image" src="https://github.com/user-attachments/assets/1f9c63d1-9806-4487-8ca7-9a4a8c7b0e4c" />
+
