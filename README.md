@@ -7,9 +7,9 @@ Welcome to my homelab repository — a place where I document my infrastructure,
 This repository is used to keep track of:
 
 * Hardware and server setup
-* Network layout (Under planning)
-* Virtual machines and containers
-* Services I run
+* https://github.com/NuQeGG/Homelab/blob/main/docs/proxmox-setup.md / https://github.com/NuQeGG/Homelab/blob/main/docs/hardware.md
+* Network layout
+* https://github.com/NuQeGG/Homelab/blob/main/docs/network-setup.md
   
 ## Why I made this
 
