@@ -10,9 +10,9 @@ This repository is used to keep track of:
 * [Hardware](docs/hardware.md)
 * [Network Setup](docs/network-setup.md)
 * [Projects](docs/projects/)
-*   [Media Stack](docs/projects/media-stack.md)
-*   [Web Services](docs/projects/web-services.md)
-  
+  * [Media Stack](docs/projects/media-stack.md)
+  * [Web Services](docs/projects/web-services.md)
+
 ## Why I made this
 
 The goal is to document everything clearly so I can:
