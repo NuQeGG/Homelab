@@ -6,9 +6,12 @@ Welcome to my homelab repository — a place where I document my infrastructure,
 
 This repository is used to keep track of:
 
-* [Proxmox Setup](docs/proxmox-setup.md) / [Hardware](docs/hardware.md)
+* [Proxmox Setup](docs/proxmox-setup.md)
+* [Hardware](docs/hardware.md)
 * [Network Setup](docs/network-setup.md)
 * [Projects](docs/projects/)
+*   [Media Stack](docs/projects/media-stack.md)
+*   [Web Services](docs/projects/web-services.md)
   
 ## Why I made this
 
