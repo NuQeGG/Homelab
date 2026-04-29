@@ -3,7 +3,7 @@
 ## Hosted Websites
 
 * Personal CV website - https://cv.nuqehosting.uk/
-* Gaming setup / social links page
+* Gaming setup / social links page - https://pc.nuqehosting.uk/
 
 ---
 
