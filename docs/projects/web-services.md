@@ -21,7 +21,7 @@ The two sites do not share a single admin data file, so changes should target th
 
 ## Hosting and maintenance
 
-The website guests are directly documented as PHP/LXC deployments. Docker is used elsewhere in the lab, but is not assumed to be the hosting layer for these sites.
+Nginx and PHP run directly in the website guests. I use Docker for other applications in the lab.
 
 Before changing a template or admin implementation, preserve the current content and application files. For ordinary text updates, the admin panel provides the existing workflow.
 

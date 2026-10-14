@@ -10,11 +10,11 @@ The homelab reuses small Lenovo computers and an older gaming PC. The small syst
 | `NuQe1G` | Lenovo ThinkCentre M910q | Intel Core i5-7500T, 8 GB RAM | Web hosting, dashboard, utilities, Ubuntu desktop |
 | `NuQeGG` | Reused gaming PC | Intel Core i5-8400, 16 GB RAM, NVIDIA GTX 1060 6 GB | Media services and processing |
 
-These specifications come from the earlier repository and setup notes. The current screenshot confirms the three nodes and their guests, but does not show CPU models or installed RAM. Recheck the figures after hardware upgrades before using them for capacity planning.
+These are the specifications I previously recorded. I still need to recheck the installed RAM and CPU models against the current machines.
 
 ## Networking equipment
 
-The documented switch is a **TP-Link TL-SG108S**, an eight-port gigabit switch. An ISP-provided router handles the existing connection. A Philips Hue Bridge has also been mentioned as equipment to accommodate in the rack, rather than as a Proxmox guest.
+I use a **TP-Link TL-SG108S**, an eight-port gigabit switch, with the ISP-provided router. The planned rack layout also needs room for a Philips Hue Bridge.
 
 ## GPU use
 
@@ -26,7 +26,7 @@ GPU visibility, selecting an encoder, and successfully processing a file are sep
 
 ## Physical organisation
 
-A modular HomeRacker build has been explored to organise the Lenovo systems, switch, and Hue Bridge using printed parts. It remains a hardware project; this documentation does not assume that the rack has been assembled. The gaming tower is intended to sit separately.
+I have been planning a modular HomeRacker build with printed parts for the Lenovo systems, switch, and Hue Bridge. It is still a project in progress, with the gaming tower intended to sit separately.
 
 ## Details to record next
 

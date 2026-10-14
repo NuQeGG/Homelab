@@ -1,6 +1,6 @@
 # Service inventory
 
-Reviewed against the current Proxmox screenshot and owner confirmation on **14 October 2026**. All listed guests are up at this review; runtime state will change over time.
+I checked this inventory on **14 October 2026**. All listed guests were running at the time.
 
 ## NuQe
 

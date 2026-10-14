@@ -8,7 +8,7 @@ The dashboard brings together website links, media applications, Proxmox nodes a
 
 ## Monitoring
 
-The setup notes record working Proxmox CPU/RAM metrics and guest status, plus Pi-hole and Speedtest widgets. The Proxmox integration uses a dedicated monitoring account and a privilege-separated API token with read-only `PVEAuditor` access. The setup also supplied the Proxmox root CA for certificate trust.
+I have Proxmox CPU/RAM metrics and guest status working alongside the Pi-hole and Speedtest widgets. The Proxmox integration uses a dedicated monitoring account and a privilege-separated API token with read-only `PVEAuditor` access. I also supplied the Proxmox root CA for certificate trust.
 
 Live measurements and service discovery are separate. Metrics update during use, but the guest cards were generated from an inventory at setup time. New, deleted, renamed, or moved guests require the saved mapping to be refreshed.
 

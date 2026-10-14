@@ -18,7 +18,7 @@ Most services are small Linux applications. Separate LXC containers make their r
 
 Full VMs are used for RomM and the Ubuntu desktop. The desktop needs a graphical environment and Bambu Studio, while the RomM VM follows its existing deployment. Docker is an application deployment layer inside selected guests; a Docker container is not an additional Proxmox guest.
 
-The public websites run Nginx and PHP in their own Debian LXCs. Earlier documentation described them as Docker deployments; the website setup notes show the direct PHP/LXC arrangement instead.
+The public websites run Nginx and PHP directly in their own Debian LXCs. I have corrected the older Docker description in this repository.
 
 ## Operating systems and updates
 

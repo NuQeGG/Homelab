@@ -7,7 +7,7 @@
 | 115, `RomM` | VM | `NuQe` | ROM library management |
 | 117, `romm-stream` | LXC | `NuQe` | Selkies desktop/game streaming companion |
 
-Both guests are present and running in the 14 October 2026 inventory. Earlier repository text called this Lenovo available for future use; it now has an established workload.
+Both guests were running when I checked the inventory on 14 October 2026. This Lenovo now runs the RomM workloads after previously being available for new projects.
 
 ## Scope
 

@@ -10,7 +10,7 @@ The desktop works over the home network. It remains Ubuntu after the Debian syst
 
 The original setup used an Ubuntu 24.04 cloud image, XFCE, and XRDP, with Bambu Studio installed in the guest. Its initial allocation was 2 virtual cores, 4 GiB RAM, and a 64 GiB disk. Those are deployment starting values; current allocations should be checked in Proxmox before treating them as capacity figures.
 
-The user reported that the desktop works well. A later update prepared a native Firefox installation and an authenticated SMB file share for transferring files from the iPad. The share's current deployment should be confirmed before describing it as an available feature.
+The desktop works well for this use. I also prepared a native Firefox installation and an authenticated SMB share for transferring files from the iPad, but still need to check that the share is deployed and working.
 
 ## Access and files
 
