@@ -1,6 +1,6 @@
 # Media stack
 
-<img width="156" alt="Media stack image from the original documentation" src="https://github.com/user-attachments/assets/5683ea36-114a-4c38-980b-53cc4d95e6fb" />
+![Media services on NuQeGG in Proxmox](../images/nuqegg-guests.png)
 
 ## Purpose and placement
 

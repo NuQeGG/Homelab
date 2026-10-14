@@ -7,6 +7,8 @@
 | 115, `RomM` | VM | `NuQe` | ROM library management |
 | 117, `romm-stream` | LXC | `NuQe` | Selkies desktop/game streaming companion |
 
+![RomM and its streaming companion on NuQe in Proxmox](../images/nuqe-guests.png)
+
 Both guests were running when I checked the inventory on 14 October 2026. This Lenovo now runs the RomM workloads after previously being available for new projects.
 
 ## Scope

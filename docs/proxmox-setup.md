@@ -34,6 +34,8 @@ The Proxmox host version is tracked separately from guest operating systems. A D
 
 The gaming PC carries the media stack and GPU processing. The Lenovo nodes carry web services, utilities, RomM, and the desktop. This keeps service ownership clear and makes changes easier to target.
 
+![Websites, utilities, and the Bambu Studio desktop on NuQe1G in Proxmox](images/nuqe1g-guests.png)
+
 That separation has practical limits: services on one physical machine share its CPU, memory, storage, and failure domain. The media applications also depend on the availability and permissions of their shared files.
 
 ## Guest management
