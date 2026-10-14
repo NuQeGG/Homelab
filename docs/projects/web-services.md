@@ -2,6 +2,8 @@
 
 I host two websites on my own infrastructure. Both run in separate Debian LXC containers on `NuQe1G`, using Nginx and PHP. Cloudflare Tunnel provides the public access path through CT 101 on `NuQeGG`.
 
+<img width="144" alt="Web services image from the original documentation" src="https://github.com/user-attachments/assets/d009057d-a120-4817-a228-74d7d98ad22e" />
+
 | Website | Guest | Documented application directory | Purpose |
 | --- | ---: | --- | --- |
 | [cv.nuqehosting.uk](https://cv.nuqehosting.uk/) | 108, `CVWeb` | `/var/www/cv` | Danish CV and a short overview of homelab projects |

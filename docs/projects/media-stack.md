@@ -1,5 +1,7 @@
 # Media stack
 
+<img width="156" alt="Media stack image from the original documentation" src="https://github.com/user-attachments/assets/5683ea36-114a-4c38-980b-53cc4d95e6fb" />
+
 ## Purpose and placement
 
 The media stack runs on `NuQeGG`, the reused gaming PC with the documented GTX 1060 6 GB. It combines streaming, requests, library management, downloads, subtitles, and file processing in separate LXC guests.

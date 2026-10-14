@@ -28,6 +28,8 @@ GPU visibility, selecting an encoder, and successfully processing a file are sep
 
 I have been planning a modular HomeRacker build with printed parts for the Lenovo systems, switch, and Hue Bridge. It is still a project in progress, with the gaming tower intended to sit separately.
 
+<img width="900" alt="Hardware image from the original documentation" src="https://github.com/user-attachments/assets/1f9c63d1-9806-4487-8ca7-9a4a8c7b0e4c" />
+
 ## Details to record next
 
 - Current CPU and installed memory for each node.

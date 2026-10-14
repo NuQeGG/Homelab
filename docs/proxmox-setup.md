@@ -12,6 +12,10 @@ The environment is organised as `NuQeCLUSTER`, with three Proxmox VE nodes. On 1
 
 The [service inventory](service-inventory.md) is the reference for guest names and IDs. Placement describes where services run today, rather than a guarantee that guests can migrate freely between nodes.
 
+<img width="749" alt="Proxmox view from the original setup" src="https://github.com/user-attachments/assets/8947fddc-5bc2-4456-99e6-c7cf44324543" />
+
+An earlier view of the cluster; see the service inventory above for current guest names and placement.
+
 ## Why use LXC and VMs together?
 
 Most services are small Linux applications. Separate LXC containers make their roles easier to identify and maintain without allocating a complete desktop operating system to each application.
