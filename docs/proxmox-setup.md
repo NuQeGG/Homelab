@@ -1,38 +1,39 @@
-# Proxmox Setup
-<img width="749" height="893" alt="image" src="https://github.com/user-attachments/assets/8947fddc-5bc2-4456-99e6-c7cf44324543" />
+# Proxmox setup
 
-## Overview
+## Cluster layout
 
-The homelab is currently built around Proxmox with multiple hosts for service separation and future scalability.
+The environment is organised as `NuQeCLUSTER`, with three Proxmox VE nodes. On 14 October 2026, the current inventory contains 21 guests: 19 LXC containers and 2 QEMU virtual machines.
 
----
+| Node | Workload group | Deployment approach |
+| --- | --- | --- |
+| `NuQe` | RomM and its streaming companion | One VM and one LXC |
+| `NuQe1G` | Websites, dashboard, Pi-hole, Tailscale, Vaultwarden, Bambu Studio | Six LXC containers and one Ubuntu VM |
+| `NuQeGG` | Media applications and Cloudflare connectivity | Twelve LXC containers; Docker used within selected guests |
 
-## Main Host
+The [service inventory](service-inventory.md) is the reference for guest names and IDs. Placement describes where services run today, rather than a guarantee that guests can migrate freely between nodes.
 
-Primary virtualization node running media stack and heavier workloads.
+## Why use LXC and VMs together?
 
-### Workloads
+Most services are small Linux applications. Separate LXC containers make their roles easier to identify and maintain without allocating a complete desktop operating system to each application.
 
-* Docker containers
-* Media automation
-* Download stack
+Full VMs are used for RomM and the Ubuntu desktop. The desktop needs a graphical environment and Bambu Studio, while the RomM VM follows its existing deployment. Docker is an application deployment layer inside selected guests; a Docker container is not an additional Proxmox guest.
 
----
+The public websites run Nginx and PHP directly in their own Debian LXCs. I have corrected the older Docker description in this repository.
 
-## Secondary Host
+## Operating systems and updates
 
-Used for web hosting and lightweight services.
+My Debian systems have been updated to Debian 13 as of 14 October 2026. `bambu-desktop` remains an Ubuntu desktop. Applications were updated for this review, but a software version should be checked on the relevant host or application before troubleshooting a version-specific issue.
 
-### Workloads
+The Proxmox host version is tracked separately from guest operating systems. A Debian guest upgrade does not establish the installed Proxmox VE release or host kernel.
 
-* Docker containers
-* Static websites
-* Tailscale access
+## Workload separation
 
----
+The gaming PC carries the media stack and GPU processing. The Lenovo nodes carry web services, utilities, RomM, and the desktop. This keeps service ownership clear and makes changes easier to target.
 
-## Container Strategy
+That separation has practical limits: services on one physical machine share its CPU, memory, storage, and failure domain. The media applications also depend on the availability and permissions of their shared files.
 
-Most services are currently deployed inside containers for easy management and low overhead.
+## Guest management
 
----
+The maintenance checklist is to check available host memory and storage before creating a guest, assign an unused guest ID, and record the application's storage and access requirements. Deleting or replacing a guest also calls for an inventory and dashboard mapping update.
+
+[Official Proxmox VE documentation](https://pve.proxmox.com/pve-docs/) · [Storage](storage.md) · [Back to overview](../README.md)

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="390" viewBox="0 0 1080 390" role="img" aria-labelledby="title description">
+  <title id="title">NuQeCLUSTER workload overview</title>
+  <desc id="description">Three Proxmox nodes: NuQe runs RomM and Selkies, NuQe1G runs websites and utilities, and NuQeGG runs media services and Cloudflare Tunnel.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#8b949e"/></marker>
+  </defs>
+  <rect width="1080" height="390" rx="4" fill="#0d1117"/>
+  <g fill="none" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)">
+    <path d="M540 66V92H180V118"/>
+    <path d="M540 66V118"/>
+    <path d="M540 66V92H900V118"/>
+    <path d="M180 162V196"/>
+    <path d="M540 162V196"/>
+    <path d="M900 162V196"/>
+  </g>
+  <g fill="#161b22" stroke="#8b949e" stroke-width="1">
+    <rect x="420" y="18" width="240" height="48" rx="4"/>
+    <rect x="65" y="118" width="230" height="44" rx="4"/>
+    <rect x="425" y="118" width="230" height="44" rx="4"/>
+    <rect x="785" y="118" width="230" height="44" rx="4"/>
+    <rect x="30" y="196" width="300" height="166" rx="4"/>
+    <rect x="390" y="196" width="300" height="166" rx="4"/>
+    <rect x="750" y="196" width="300" height="166" rx="4"/>
+  </g>
+  <g fill="#e6edf3" font-family="Arial, Helvetica, sans-serif" font-size="16" text-anchor="middle">
+    <text x="540" y="48" font-weight="700">Proxmox VE - NuQeCLUSTER</text>
+    <text x="180" y="146" font-weight="700">NuQe</text>
+    <text x="540" y="146" font-weight="700">NuQe1G</text>
+    <text x="900" y="146" font-weight="700">NuQeGG</text>
+    <text x="180" y="240">RomM VM</text>
+    <text x="180" y="274">Selkies streaming LXC</text>
+    <text x="540" y="231">CV and PC websites</text>
+    <text x="540" y="264">Homepage - Pi-hole</text>
+    <text x="540" y="297">Tailscale - Vaultwarden</text>
+    <text x="540" y="330">Bambu Studio desktop</text>
+    <text x="900" y="231">Jellyfin - Seerr - Radarr - Sonarr</text>
+    <text x="900" y="264">Prowlarr - Bazarr - FileFlows</text>
+    <text x="900" y="297">Download tools</text>
+    <text x="900" y="330">Cloudflare Tunnel</text>
+  </g>
+</svg>
